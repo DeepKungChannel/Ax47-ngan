@@ -38,8 +38,8 @@ transform: translate(220px, -45px);
   border:0;
  width:250px;
  background-color: black;
- //border: 2px solid #FF5733;
- //display: block;
+ /* border: 2px solid #FF5733; */
+ /* display: block; */
  list-style: none;
  padding:0;
  margin:0;
@@ -51,9 +51,9 @@ transform: translate(220px, -45px);
 .__menu101__ li {
   border: 1px solid #FF5733;
   font-size:20px;
-  line-heigth:40px;
+  min-height:40px;
   padding:0;
- margin:0;
+  margin:0;
  
 }
 .__menu101__ a {
@@ -67,11 +67,11 @@ transform: translate(220px, -45px);
 }
 .__menu101__ li li{
   font-size:15px;
-  //display:none;
+  /* display:none; */
 }
 
 .__menu101__ li ul{
-  didplay:block;
+  display:block;
 } 
 
 
