@@ -49,7 +49,7 @@ transform: translate(220px, -45px);
 .__menu101__ li {
   border: 1px solid #FF5733;
   font-size:20px;
-  /* min-height:40px; */   /* ------------What is this ?------------ */
+  /* line-height:40px; */   /* ------------What is this ?------------ */
   padding:0;
   margin:0;
  
