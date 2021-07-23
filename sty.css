@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  
+  
+}
+._bar {
+  transform: translate(250px, 13.75px);
+  width: 35px;
+  height: 5px;
+  background-color:#FF5733 ;
+  margin: 6px 0;
+}
+
+.__menu101__ label {
+ 
+transform: translate(220px, -45px);
+
+  border:0;
+  width:60px;
+  background: none;
+  display: block;
+  margin: 20px ;
+  text-align: left;
+  border: 2px solid #FF5733;
+  padding: 14px 50px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+
+.__menu101__ ul {
+  border:0;
+ width:250px;
+ background-color: black;
+ //border: 2px solid #FF5733;
+ //display: block;
+ list-style: none;
+ padding:0;
+ margin:0;
+ text-align: center;
+ display:none;
+ 
+}
+
+.__menu101__ li {
+  border: 1px solid #FF5733;
+  font-size:20px;
+  line-heigth:40px;
+  padding:0;
+ margin:0;
+ 
+}
+.__menu101__ a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+.__menu101__ a:hover {
+  background-color:#FF5733;
+  color:black;
+}
+.__menu101__ li li{
+  font-size:15px;
+  //display:none;
+}
+
+.__menu101__ li ul{
+  didplay:block;
+} 
+
+
+input[type="checkbox"] {
+  display:none;
+}
+input[type="checkbox"]:hover ~ label{
+  background-color:#FF5733;
+  color: black;
+  padding: 17px 56px;
+}
+
+
+input[type="checkbox"]:checked ~ ul {
+  display:block;
+}
